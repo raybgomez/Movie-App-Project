@@ -5,7 +5,7 @@ import MovieCard from './MovieCard';
 import './App.css';
 import SearchIcon from './search.svg';
 
-const API_URL = 'https://www.omdbapi.com?apikey=f3e04adc'
+const API_URL = 'https://www.omdbapi.com/?i=tt3896198&apikey=27ac3a71'
 
 const App = () => {
     const [movies, setMovies] = useState([]);
@@ -55,3 +55,4 @@ const App = () => {
     };
 
 export default App;
+//"This product uses the TMDB API but is not endorsed or certified by TMDB."

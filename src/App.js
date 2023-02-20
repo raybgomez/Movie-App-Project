@@ -21,6 +21,7 @@ const App = () => {
     useEffect(() => {
         searchMovies('movie');
 }, []);
+
     return(
         <div className='app'>
             <h1>MovieLand</h1>
@@ -45,7 +46,7 @@ const App = () => {
                     ))}
                     </div>
                     ) : (
-                        <div className='empty'>
+                         <div className='empty'>
                             <h2>No movies found</h2>
                         </div>
                     )}
